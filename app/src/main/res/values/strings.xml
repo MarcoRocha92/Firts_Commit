@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name" translatable="false">YAMDAG1</string>
+    <string name="search">Search</string>
+    <string name="cartaz">On Theaters</string>
+    <string name="brevemente">Coming Soon</string>
+    <string name="populares">Popular</string>
+    <string name="title">Title:</string>
+    <string name="orig_title">Orig. title:</string>
+    <string name="date">Date:</string>
+    <string name="vote">Voting:</string>
+    <string name="overview">Overview:</string>
+</resources>

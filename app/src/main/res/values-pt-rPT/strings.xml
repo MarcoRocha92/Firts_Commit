@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">YAMDAG1</string>
+    <string name="search">Pesquisar</string>
+    <string name="cartaz">Em Cartaz</string>
+    <string name="brevemente">Brevemente</string>
+    <string name="populares">Populares</string>
+    <string name="title">Título:</string>
+    <string name="orig_title">Orig. Título:</string>
+    <string name="date">Data:</string>
+    <string name="vote">Votação:</string>
+    <string name="overview">Descrição:</string>
+</resources>

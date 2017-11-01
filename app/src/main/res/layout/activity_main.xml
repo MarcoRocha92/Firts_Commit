@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    tools:context="testes.yamdag1.MainActivity">
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter search key"
+        android:id="@+id/editText" />
+
+    <ImageButton
+        android:id="@+id/search_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/search"
+        android:onClick="onSearch"/>
+
+    <ListView
+        android:id="@+id/ListView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_above="@+id/toolbar"/>
+
+    <TableRow
+        android:id="@+id/toolbar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="bottom"
+        >
+
+        <Button
+            android:id="@+id/cartaz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-5dp"
+            android:layout_marginRight="-4.5dp"
+            android:layout_weight="0.2"
+            android:text="@string/cartaz"
+            android:onClick="onTheaters"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/brevemente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-4.5dp"
+            android:layout_marginRight="-4.5dp"
+            android:layout_weight="0.2"
+            android:text="@string/brevemente"
+            android:onClick="onCommingSoon"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/populares"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:layout_marginLeft="-4.5dp"
+            android:layout_marginRight="-4.5dp"
+            android:layout_weight="0.2"
+            android:text="@string/populares"
+            android:onClick="onPopulars"
+            android:textSize="10dp" />
+
+
+    </TableRow>
+
+
+
+</RelativeLayout>
